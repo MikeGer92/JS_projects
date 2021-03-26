@@ -12,7 +12,6 @@ btn[4].style.backgroundColor = 'lightblue';
 circle[0].style.backgroundColor = 'red';
 circle[1].style.backgroundColor = 'yellow';
 circle[2].style.backgroundColor = 'green';
-
 // for (let i = 0; i < heart.length; i++) {
 //     heart[i].style.backgroundColor = 'brown';
 // };
