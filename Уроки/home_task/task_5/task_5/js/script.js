@@ -1,3 +1,4 @@
+'use strict';
 let btn = document.getElementsByTagName('menu-item'),
     title = document.getElementById('title'),
     column = document.querySelector('.column')[1],
