@@ -7,49 +7,49 @@ const catalog = {
             group: 'milkProd',
             name: 'Молоко',
             price: 60,
-            img: '#'
+            img: "catalog/imges/pr1.jpg"
         },
         {
             uin_product: 'pr2',
             group: 'milkProd',
             name: 'Йогурт',
             price: 32,
-            img: '#'
+            img: 'catalog/imges/pr2.jpg'
         },
         {
             uin_product: 'pr3',
             group: 'breadProd',
             name: 'Багет',
             price: 40,
-            img: '#'
+            img: 'catalog/imges/pr3.jpg'
         },
         {
             uin_product: 'pr4',
             group: 'breadProd',
             name: 'Круасан',
             price: 220,
-            img: '#'
+            img: 'catalog/imges/pr4.jpg'
         },
         {
             uin_product: 'pr5',
             group: 'cheeseProd',
             name: 'Сыр',
             price: 640,
-            img: '#'
+            img: 'catalog/imges/pr5.jpg'
         },
         {
             uin_product: 'pr6',
             group: 'vegProd',
             name: 'Перец',
             price: 270,
-            img: '#'
+            img: 'catalog/imges/pr6.jpg'
         },
         {
             uin_product: 'pr7',
             group: 'fruProd',
             name: 'Яблоки',
             price: 80,
-            img: '#'
+            img: 'catalog/imges/pr7.jpg'
         },
 
     ],
@@ -89,6 +89,7 @@ const catalog = {
         return `<div class="product">
                     <h3>${product.name}</h3>
                     <p>${product.price} рублей</p>
+                    <div class='product_photo'><img src = '${product.img}'</div>
                     <button class = "toBasket" data-uin_product = "${product.uin_product}">В корзину</button>
                 </div>`;
  
@@ -102,7 +103,7 @@ const catalog = {
 };
 const basketItem = {
     render(product) {
-        return `<div class="product">
+        return `<div class="baskProduct">
                     <div><b>УИНТ</b>: ${product.uin_product}</div>
                     <div><b>Наименование</b>: ${product.name}</div>
                     <div><b>Цена за шт./кг.</b>: ${product.price} рублей</div>
@@ -202,11 +203,14 @@ const basket = {
         const uin_product = event.target.dataset.uin_product;
         const prodQuant = this.products.find((product) => product.uin_product === uin_product);
         if (event.target.classList.contains('minus')){
-        prodQuant.quantity--; 
+            if (prodQuant.quantity > 0) {
+                prodQuant.quantity--; 
+            } else {
+                prodQuant.quantity = 0;
+            }
         }else {
             prodQuant.quantity++;
         }
-
         this.render();
     },
 
