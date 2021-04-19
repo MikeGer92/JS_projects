@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .product {
+            border: 1px solid #000;
+            margin-bottom: 5px;
+            background: pink;
+        }
+        .buttons_block{
+            margin-top: 30px;
+            display: flex;
+            justify-content: left;
+        }
+        .clear_btn {
+            margin-top: 30px;
+            width: 150px;
+            height: 50px;
+            border:solid 2px red;
+            border-radius: 20px; 
+        }
+        .list_btn, .hidden_btn {
+            margin: 30px 0 0 100px;
+            width: 150px;
+            height: 50px;
+            border:solid 2px green;
+            border-radius: 20px; 
+        }
+        .basketlist {
+            display: block;
+        }
+        .basketlist_deactive {
+                display: none;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container"></div>
+
+    <div class="basketlist_deactive"></div>
+    <div class="buttons_block">
+        <button class="clear_btn">Очистить корзину</button>
+        <button class="list_btn hidden_btn">Показать список</button>
+    </div>
+    
+    <script src="hW_5.js"></script>
+</body>
+
+</html>
