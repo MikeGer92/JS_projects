@@ -1,0 +1,106 @@
+{
+  "people": [
+    {
+      "name": "Mike",
+      "surname": "Ger",
+      "sex": "male",
+      "age": 45,
+      "photo": "https://scontent.frix2-1.fna.fbcdn.net/v/t31.18172-8/25398050_1498170566964123_6072318646491660473_o.jpg?_nc_cat=103&ccb=1-3&_nc_sid=e3f864&_nc_ohc=yjqBTsL-_yEAX8Ff20B&_nc_ht=scontent.frix2-1.fna&oh=11757fd835e12891b133ebd04bafb84a&oe=60BB2752"
+    },
+    {
+      "name": "Yulia",
+      "surname": "Ger",
+      "sex": "female",
+      "age": 23,
+      "photo": "https://sun9-69.userapi.com/impg/ukLDPsEdqqLZRQh5prKF9bCo8C5GENym6PVumQ/7PD76BndZHw.jpg?size=450x482&quality=96&sign=1a4a0890c71e313c44491d6f39aa5f96&type=album"
+    },
+    {
+      "name": "Vit",
+      "surname": "Kost",
+      "sex": "male",
+      "age": 20,
+      "photo": "https://sun9-67.userapi.com/impf/mLn0zjxoxBJX2sOiiBFq8BPg8xAwqGS2QS3W4A/bcntagkP8H4.jpg?size=1280x853&quality=96&sign=213c158312e5d9a973d9c94f7d329b30&type=album"
+    },
+    {
+      "name": "Dima",
+      "surname": "Ger",
+      "sex": "male",
+      "age": 12,
+      "photo": "https://sun9-67.userapi.com/impg/jMNKHu3c4_NMHTd0t6zt7UuE9LCww9ecns7IVw/M_d5qR4EdkM.jpg?size=229x272&quality=96&sign=f96e009a3310cacc0d313c5b79fb760b&type=album"
+    },
+    {
+      "name": "Serg",
+      "surname": "Mule",
+      "sex": "male",
+      "age": 32,
+      "photo": "https://scontent.frix2-1.fna.fbcdn.net/v/t1.6435-9/104385072_1677723895713908_2120162834287745292_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=ZUOwc-7DfjMAX-Nrnid&_nc_ht=scontent.frix2-1.fna&oh=96e73b1736e3204242775f3c068bdd00&oe=60BA8618"
+    },
+    {
+      "name": "Anna",
+      "surname": "Rayan",
+      "sex": "female",
+      "age": 42,
+      "photo": "https://thumb-p4.xhcdn.com/a/_nUiYWyvE87YMKI68RPWOg/000/479/869/094_1000.jpg"
+    },
+    {
+      "name": "Michael",
+      "surname": "Dobkin",
+      "sex": "male",
+      "age": 30,
+      "photo": "https://palmy.com.ua/content/images/2/583x875l80mc0/muzhskaya-shlyapa-fedora-iz-100-shersti-tsvet-chernyy-97449106610906.jpg"
+    },
+    {
+      "name": "John",
+      "surname": "Smith",
+      "sex": "male",
+      "age": 26,
+      "photo": "https://m.media-amazon.com/images/M/MV5BMjM3MjM3NTAxM15BMl5BanBnXkFtZTgwMTY0Nzg2OTE@._V1_.jpg"
+    },
+    {
+      "name": "Angela",
+      "surname": "Whinston",
+      "sex": "female",
+      "age": 31,
+      "photo": "https://onthewingsoflove.blob.core.windows.net/album/011816-Angela/1.jpg"
+    },
+    {
+      "name": "Alex",
+      "surname": "Solberry",
+      "sex": "male",
+      "age": 35,
+      "photo": "https://www.gv.com/img/team-large/john-lyman.jpg"
+    },
+    {
+      "name": "Mike",
+      "surname": "Ger",
+      "age": 45,
+      "id": 0.3609964374986361
+    },
+    {
+      "name": "Mike",
+      "surname": "Ger",
+      "age": 45,
+      "id": 0.7339483289322586
+    },
+    {
+      "name": "Mikeman",
+      "age": "45",
+      "id": "0.7488382863444798"
+    },
+    {
+      "name": "mikeman2006",
+      "age": "46",
+      "id": "0.7853606832267719"
+    },
+    {
+      "name": "Михаил",
+      "age": "45",
+      "id": "0.6003837129538923"
+    },
+    {
+      "name": "MikeGer",
+      "age": "15575",
+      "id": "0.23357519119015135"
+    }
+  ]
+}
